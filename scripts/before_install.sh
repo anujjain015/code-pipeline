@@ -1,3 +1,4 @@
 #!/bin/bash
 
-pip install -r ../requirements.txt
+cd /home/ec2-user/express-app
+pip install -r requirements.txt
