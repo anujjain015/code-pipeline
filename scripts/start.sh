@@ -7,4 +7,5 @@ sudo chmod -R 777 /home/ec2-user/express-app
 cd /home/ec2-user/express-app
 
 #start our python app in the background
-FLASK_APP=app.py flask run --host=0.0.0.0
+export FLASK_APP=app
+flask run
